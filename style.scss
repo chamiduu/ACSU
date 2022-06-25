@@ -1,7 +1,16 @@
+@font-face {
+    font-family: 'NFS';
+    src: url(./Assets/NFS_by_JLTV.ttf);
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+html {
+    overflow-x: hidden;
 }
 
 body {
@@ -44,4 +53,38 @@ h1 {
         }
     }
 
+}
+
+.butterfly {
+    position: absolute;
+    left: -100px;
+    width: 300px;
+}
+
+.astronout {
+    position: absolute;
+    right: -100px;
+    bottom: -150px;
+    width: 600px;
+}
+
+
+.compName h1 {
+    font-family: 'NFS', Courier, sans-serif;
+    letter-spacing: 5px;
+    font-size: 6em;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+
+
+.ACSULogo {
+    width: 100px;
+}
+
+.schoolLogo {
+    width: 85px;
 }
