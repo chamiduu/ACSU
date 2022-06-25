@@ -1,0 +1,30 @@
+body {
+    background-color: #383DC8;
+    background-image: url('./Assets/Images/mini-background.jpg');
+    background-size: cover;
+    background-repeat: repeat-y;
+    /* background-position: center; */
+    background-attachment: fixed;
+}
+
+h1 {
+    /* padding-bottom: 1000px; */
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.navLinks {
+    width: 70vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-decoration: none;
+    color: white;
+    list-style: none;
+    font-size: 1.3em;
+}
