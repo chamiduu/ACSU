@@ -37,6 +37,10 @@ h1 {
     display: flex;
     justify-content: center;
     padding: 30px 0 30px 0;
+
+    @media screen and (max-width: 458px) {
+        display: none;
+    }
 }
 
 .navLinks {
@@ -64,6 +68,11 @@ h1 {
     position: absolute;
     left: -100px;
     width: 300px;
+
+    @media screen and (max-width: 458px) {
+        // display: none;
+        width: 200px;  
+    }
 }
 
 .astronout {
@@ -71,6 +80,11 @@ h1 {
     right: -100px;
     bottom: -150px;
     width: 600px;
+
+    @media screen and (max-width: 458px) {
+        // display: none;
+        width: 400px;
+    }
 }
 
 
@@ -88,16 +102,31 @@ background: linear-gradient(114deg, rgba(118,247,255,1) 0%, rgba(0,255,224,1) 10
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-shadow: 0px 0px 13px rgba(60,250,240,0.35);
+
+    @media screen and (max-width: 458px) {
+        font-size: 3.5em;
+        width: min-content;
+        text-align: center;
+        margin-top: 150px;
+    }
 }
 
 
 
 .ACSULogo {
     width: 100px;
+    margin-left: 20px;
+    @media screen and (max-width: 458px) {
+        width: 80px;
+    }
 }
 
 .schoolLogo {
     width: 85px;
+
+    @media screen and (max-width: 458px) {
+        width: 70px;
+    }
 }
 
 .heroWrapper {
@@ -120,6 +149,12 @@ background: linear-gradient(114deg, rgba(118,247,255,1) 0%, rgba(0,255,224,1) 10
     font-weight: 600;
     margin-top: 20px;
     color: #02E2CF;
+
+    @media screen and (max-width: 458px) {
+        text-align: center;
+        font-size: 1.4em;   
+        margin-top: 50px;
+    }
 }
 
 .loveForScience {
@@ -127,6 +162,13 @@ background: linear-gradient(114deg, rgba(118,247,255,1) 0%, rgba(0,255,224,1) 10
     font-weight: 600;
     color: #ffffff;
     margin-top: 30px;
+    @media screen and (max-width: 458px) {
+        text-align: center;
+        font-size: 1.4em;  
+        font-weight: 500; 
+        margin-top: 20px;
+        padding: 0 20px 0 20px;
+    }
 }
 
 .organizedBy {
@@ -151,7 +193,12 @@ background: linear-gradient(114deg, rgba(118,247,255,1) 0%, rgba(0,255,224,1) 10
     align-items: center;
     width: 500px;
     position: absolute;
-    bottom: 100px;
+    bottom: 50px;
+
+    @media screen and (max-width: 458px) {
+        flex-direction: column;
+        width: min-content;
+    }
 }
 
 .register {
@@ -169,6 +216,11 @@ background: linear-gradient(114deg, rgba(118,247,255,1) 0%, rgba(0,255,224,1) 10
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 0px 0px 31px rgba(37, 252, 233, 0.78);
+
+    @media screen and (max-width: 458px) {
+        width: 300px;
+    }
 }
 
 .moreInfo {
@@ -186,6 +238,15 @@ background: linear-gradient(114deg, rgba(118,247,255,1) 0%, rgba(0,255,224,1) 10
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 0px 0px 31px rgba(37, 252, 233, 0.78);
+
+    @media screen and (max-width: 458px) {
+        width: 300px;
+    }
+
+    @media screen and (max-width: 458px) {  
+        margin-bottom: 20px;
+    }
 }
 
 
@@ -218,6 +279,6 @@ background: linear-gradient(114deg, rgba(118,247,255,1) 0%, rgba(0,255,224,1) 10
 
 .about p {
     font-size: 1.5em;
-    color: #C3CBFF;
+    color: #E3F5FF;
     margin-top: 50px;
 }
