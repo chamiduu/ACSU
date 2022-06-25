@@ -74,6 +74,7 @@ h1 {
     position: absolute;
     left: -100px;
     width: 300px;
+    z-index: -1;
 
     @media screen and (max-width: 458px) {
         // display: none;
@@ -86,6 +87,7 @@ h1 {
     right: -100px;
     bottom: -150px;
     width: 600px;
+    z-index: -1;
 
     @media screen and (max-width: 458px) {
         // display: none;
@@ -106,7 +108,7 @@ h1 {
     background: rgb(118,247,255);
 background: linear-gradient(114deg, rgba(118,247,255,1) 0%, rgba(0,255,224,1) 100%);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    // -webkit-text-fill-color: transparent;
     text-shadow: 0px 0px 13px rgba(60,250,240,0.35);
 
     @media screen and (max-width: 458px) {
@@ -264,7 +266,7 @@ background: linear-gradient(114deg, rgba(118,247,255,1) 0%, rgba(0,255,224,1) 10
 // ABOUT SECTION______________________________________________________________
 
 .aboutWrapper {
-    padding: 0 500px 0 100px;
+    padding: 0 300px 0 100px;
     margin-top: 200px;
 
     @media screen and (max-width: 458px) {
@@ -285,7 +287,7 @@ background: linear-gradient(114deg, rgba(118,247,255,1) 0%, rgba(0,255,224,1) 10
     background: rgb(118,247,255);
 background: linear-gradient(114deg, rgba(118,247,255,1) 0%, rgba(0,255,224,1) 100%);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    // -webkit-text-fill-color: transparent;
     text-shadow: 0px 0px 13px rgba(60,250,240,0.35);
     }
 
@@ -297,11 +299,13 @@ background: linear-gradient(114deg, rgba(118,247,255,1) 0%, rgba(0,255,224,1) 10
 
 .about p {
     font-size: 1.5em;
+    padding-right: 150px;
     color: #E3F5FF;
     margin-top: 50px;
 
     @media screen and (max-width: 458px) {
         margin-top: 30px;
         font-size: 1.3em;
+        padding-right: 0;
     }
 }
