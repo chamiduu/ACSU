@@ -6,17 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap" rel="stylesheet">
-<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</script>
+
     <title>Scientia '21</title>
 </head>
 <body>
     <!-- NAVBAR -->
-    <nav class="navbar">
+    <nav class="navbar" data-aos="fade-down">
         <ul class="navLinks">
             <li><a href="#">HOME</a></li>
-            <li><a href="#">ABOUT</a></li>
+            <li><a href="#about">ABOUT</a></li>
             <li><a href="#">REGISTER</a></li>
             <li><a href="#">SPONSORS</a></li>
             <li><a href="#">CONTACT</a></li>
@@ -28,36 +30,35 @@
         <img src="./Assets/Images/butterfly.png" alt="butterfly" class="butterfly">
         <img src="./Assets/Images/astronout.png" alt="astronout" class="astronout">
         <div class="compName">
-            <h1>SCIENTIA  '21</h1>
-            <p class="ScienceExtravaganza">Science Extravaganza in Sri Lanka</p>
-            <p class="loveForScience">A day to truly celebrate the love for science</p>
+            <h1 data-aos="fade-up">SCIENTIA  '21</h1>
+            <p data-aos="fade-up" class="ScienceExtravaganza">Science Extravaganza in Sri Lanka</p>
+            <p data-aos="fade-up" class="loveForScience">A day to truly celebrate the love for science</p>
         </div>
         <div class="organizedBy">
-            <div class="logos">
+            <div class="logos" data-aos="fade-up">
                 <img src="./Assets/Images/School.png" alt="Ananda college logo" class="schoolLogo">
                 <img src="./Assets/Images/ACSU.png" alt="ACSU logo" class="ACSULogo">
             </div>
-            <p class="organizedText">Organized by Ananda College Science Union</p>
+            <p class="organizedText" data-aos="fade-up">Organized by Ananda College Science Union</p>
         </div>
         <div class="buttons">
-            <div class="moreInfo">More Info</div>
-            <div class="register">Register</div>
+            <div class="moreInfo" data-aos="fade-right">More Info</div>
+            <div class="register" data-aos="fade-left">Register</div>
         </div>
     </div>
 
     <!-- ABOUT SECTION -->
-    <div class="aboutWrapper">
+    <div class="aboutWrapper" id="about">
         <div class="about">
             <h2>What is <span>SCIENTIA  '21</span></h2>
-            <p>
+            <p data-aos="fade-up">
                 Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nisi.
             </p>
             <p>
                 Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nisi.Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nisi.
             </p>
 
-    <script>
-        AOS.init();
-    </script>
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <script src="./script.js"></script>
 </body>
 </html>
