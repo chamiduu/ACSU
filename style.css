@@ -496,4 +496,29 @@ h1 {
 .name span {
   font-weight: 600;
   color: #02E2CF;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  background: rgba(195, 203, 255, 0.308);
+  -webkit-backdrop-filter: blur(20px);
+          backdrop-filter: blur(20px);
+  border-radius: 30px 30px 0 0;
+}
+
+.myWork {
+  font-size: 1.5em;
+  font-weight: 500;
+  color: #ffffff;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.myWork a {
+  font-weight: 600;
+  color: #02E2CF;
+  text-decoration: none;
 }/*# sourceMappingURL=style.css.map */
