@@ -281,7 +281,7 @@ h1 {
 }
 
 .aboutWrapper {
-  padding: 0 300px 0 100px;
+  padding: 0 10vw 0 100px;
   margin-top: 200px;
 }
 @media screen and (max-width: 458px) {
@@ -328,4 +328,125 @@ h1 {
 
 .theme {
   color: #02E2CF !important;
+}
+
+.registerWrapper {
+  padding: 0 10vw 0 100px;
+  margin-top: 200px;
+  height: 100vh;
+}
+@media screen and (max-width: 458px) {
+  .registerWrapper {
+    padding: 0 30px 0 30px;
+  }
+}
+
+.registerSection h2 {
+  font-family: "NFS", Courier, sans-serif;
+  letter-spacing: 5px;
+  font-size: 5em;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 0;
+}
+.registerSection h2 span {
+  color: #3bfbf0;
+  background: rgb(118, 247, 255);
+  background: linear-gradient(114deg, rgb(118, 247, 255) 0%, rgb(0, 255, 224) 100%);
+  -webkit-background-clip: text;
+  text-shadow: 0px 0px 13px rgba(60, 250, 240, 0.35);
+}
+@media screen and (max-width: 458px) {
+  .registerSection h2 {
+    font-size: 2.5em;
+    margin-top: 150px;
+  }
+}
+
+.sponsorsWrapper {
+  padding: 0 10vw 0 100px;
+  margin-top: 200px;
+  height: 100vh;
+}
+@media screen and (max-width: 458px) {
+  .sponsorsWrapper {
+    padding: 0 30px 0 30px;
+  }
+}
+
+.sponsorsSection h2 {
+  font-family: "NFS", Courier, sans-serif;
+  letter-spacing: 5px;
+  font-size: 5em;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 0;
+}
+.sponsorsSection h2 span {
+  color: #3bfbf0;
+  background: rgb(118, 247, 255);
+  background: linear-gradient(114deg, rgb(118, 247, 255) 0%, rgb(0, 255, 224) 100%);
+  -webkit-background-clip: text;
+  text-shadow: 0px 0px 13px rgba(60, 250, 240, 0.35);
+}
+@media screen and (max-width: 458px) {
+  .sponsorsSection h2 {
+    font-size: 2.5em;
+    margin-top: 150px;
+  }
+}
+
+.sponsorContainer {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 85vw;
+  background: rgba(195, 203, 255, 0.308);
+  -webkit-backdrop-filter: blur(20px);
+          backdrop-filter: blur(20px);
+  padding: 50px 50px;
+  border-radius: 30px;
+}
+@media screen and (max-width: 458px) {
+  .sponsorContainer {
+    width: 85vw;
+    flex-direction: column;
+  }
+}
+
+.sponsor1, .sponsor2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sponsor1 img, .sponsor2 img {
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 458px) {
+  .sponsor1 img, .sponsor2 img {
+    width: 200px;
+    margin-top: 0px;
+  }
+}
+
+.goldSponsor, .eduSponsor {
+  font-size: 1.4em;
+  font-weight: 600;
+  color: #ffffff;
+}
+@media screen and (max-width: 458px) {
+  .goldSponsor, .eduSponsor {
+    text-align: center;
+  }
+}
+
+.goldSponsor {
+  color: #f3bc07;
+}
+@media screen and (max-width: 458px) {
+  .goldSponsor {
+    margin-bottom: 100px;
+  }
 }/*# sourceMappingURL=style.css.map */
