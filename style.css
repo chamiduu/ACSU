@@ -453,7 +453,7 @@ h1 {
 .contactWrapper {
   padding: 0 10vw 0 100px;
   margin-top: 200px;
-  height: 100vh;
+  margin-bottom: 200px;
 }
 @media screen and (max-width: 458px) {
   .contactWrapper {
@@ -516,6 +516,13 @@ footer {
   color: #ffffff;
   margin-bottom: 20px;
   margin-top: 20px;
+}
+@media screen and (max-width: 458px) {
+  .myWork {
+    font-size: 1.2em;
+    padding: 0 20px;
+    text-align: center;
+  }
 }
 .myWork a {
   font-weight: 600;
