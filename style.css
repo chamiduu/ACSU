@@ -72,6 +72,7 @@ h1 {
   left: -100px;
   width: 300px;
   z-index: -1;
+  transition: 0.5 all ease-in-out;
 }
 @media screen and (max-width: 458px) {
   .butterfly {
@@ -216,6 +217,18 @@ h1 {
   }
 }
 
+.button {
+  transition: 1s all ease-in-out;
+}
+
+.button:hover {
+  transform: scale(1.1);
+}
+
+.button:active {
+  transform: scale(0.9);
+}
+
 .register {
   width: 200px;
   height: 50px;
@@ -311,4 +324,8 @@ h1 {
     font-size: 1.3em;
     padding-right: 0;
   }
+}
+
+.theme {
+  color: #02E2CF !important;
 }/*# sourceMappingURL=style.css.map */
