@@ -349,13 +349,6 @@ h1 {
   color: #ffffff;
   margin-bottom: 0;
 }
-.registerSection h2 span {
-  color: #3bfbf0;
-  background: rgb(118, 247, 255);
-  background: linear-gradient(114deg, rgb(118, 247, 255) 0%, rgb(0, 255, 224) 100%);
-  -webkit-background-clip: text;
-  text-shadow: 0px 0px 13px rgba(60, 250, 240, 0.35);
-}
 @media screen and (max-width: 458px) {
   .registerSection h2 {
     font-size: 2.5em;
@@ -380,13 +373,6 @@ h1 {
   font-weight: 600;
   color: #ffffff;
   margin-bottom: 0;
-}
-.sponsorsSection h2 span {
-  color: #3bfbf0;
-  background: rgb(118, 247, 255);
-  background: linear-gradient(114deg, rgb(118, 247, 255) 0%, rgb(0, 255, 224) 100%);
-  -webkit-background-clip: text;
-  text-shadow: 0px 0px 13px rgba(60, 250, 240, 0.35);
 }
 @media screen and (max-width: 458px) {
   .sponsorsSection h2 {
@@ -468,13 +454,6 @@ h1 {
   font-weight: 600;
   color: #ffffff;
   margin-bottom: 0;
-}
-.contactSection h2 span {
-  color: #3bfbf0;
-  background: rgb(118, 247, 255);
-  background: linear-gradient(114deg, rgb(118, 247, 255) 0%, rgb(0, 255, 224) 100%);
-  -webkit-background-clip: text;
-  text-shadow: 0px 0px 13px rgba(60, 250, 240, 0.35);
 }
 @media screen and (max-width: 458px) {
   .contactSection h2 {
