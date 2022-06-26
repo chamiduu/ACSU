@@ -366,7 +366,6 @@ h1 {
 .sponsorsWrapper {
   padding: 0 10vw 0 100px;
   margin-top: 200px;
-  height: 100vh;
 }
 @media screen and (max-width: 458px) {
   .sponsorsWrapper {
@@ -449,4 +448,52 @@ h1 {
   .goldSponsor {
     margin-bottom: 100px;
   }
+}
+
+.contactWrapper {
+  padding: 0 10vw 0 100px;
+  margin-top: 200px;
+  height: 100vh;
+}
+@media screen and (max-width: 458px) {
+  .contactWrapper {
+    padding: 0 30px 0 30px;
+  }
+}
+
+.contactSection h2 {
+  font-family: "NFS", Courier, sans-serif;
+  letter-spacing: 5px;
+  font-size: 5em;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 0;
+}
+.contactSection h2 span {
+  color: #3bfbf0;
+  background: rgb(118, 247, 255);
+  background: linear-gradient(114deg, rgb(118, 247, 255) 0%, rgb(0, 255, 224) 100%);
+  -webkit-background-clip: text;
+  text-shadow: 0px 0px 13px rgba(60, 250, 240, 0.35);
+}
+@media screen and (max-width: 458px) {
+  .contactSection h2 {
+    font-size: 2.5em;
+    margin-top: 150px;
+  }
+}
+
+.contactInfo {
+  margin-top: 50px;
+}
+
+.name {
+  font-size: 1.5em;
+  font-weight: 500;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.name span {
+  font-weight: 600;
+  color: #02E2CF;
 }/*# sourceMappingURL=style.css.map */
