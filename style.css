@@ -363,7 +363,6 @@ h1 {
 .leaderboardWrapper {
   padding: 0 10vw 0 100px;
   margin-top: 200px;
-  height: 100vh;
 }
 @media screen and (max-width: 458px) {
   .leaderboardWrapper {
