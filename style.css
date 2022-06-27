@@ -457,6 +457,66 @@ h1 {
   margin-right: 50px;
 }
 
+.visualizearaWrapper {
+  padding: 0 10vw 0 100px;
+  margin-top: 200px;
+}
+@media screen and (max-width: 458px) {
+  .visualizearaWrapper {
+    padding: 0 30px 0 30px;
+  }
+}
+
+.visualizearaSection h2 {
+  font-family: "NFS", Courier, sans-serif;
+  letter-spacing: 5px;
+  font-size: 5em;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 0;
+}
+@media screen and (max-width: 458px) {
+  .visualizearaSection h2 {
+    font-size: 2.5em;
+    margin-top: 150px;
+  }
+}
+
+.podiumContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 90vw;
+}
+
+.secondRunnerUp {
+  width: 450px;
+  aspect-ratio: 16/9;
+  background-color: #02E2CF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.winner {
+  width: 500px;
+  aspect-ratio: 16/9;
+  background-color: #6ee202;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.firstRunnerUp {
+  width: 450px;
+  aspect-ratio: 16/9;
+  background-color: #e2cc02;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .sponsorsWrapper {
   padding: 0 10vw 0 100px;
   margin-top: 200px;
