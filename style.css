@@ -31,10 +31,10 @@ a {
 body {
   background-color: #383DC8;
   background-image: url("./Assets/Images/mini-background.jpg");
-  background-size: cover;
+  background-size: contain;
   background-repeat: repeat-y;
   /* background-position: center; */
-  background-attachment: fixed;
+  background-attachment: scroll;
   font-family: "Source Sans Pro", sans-serif;
 }
 
@@ -384,6 +384,78 @@ h1 {
     font-size: 2.5em;
     margin-top: 150px;
   }
+}
+
+.table {
+  width: 85vw;
+  margin-top: 50px;
+  border-collapse: collapse;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.intellectWinner {
+  background-color: hsla(47deg, 100%, 52%, 0.675) !important;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  padding: 0 40px !important;
+  height: 70px !important;
+  font-size: 1.5em !important;
+  width: 85vw !important;
+  font-weight: 600 !important;
+  border-radius: 15px !important;
+}
+
+.intellectRunnerUp {
+  background-color: rgba(255, 255, 255, 0.662745098) !important;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  padding: 0 40px !important;
+  height: 65px !important;
+  font-size: 1.4em !important;
+  font-weight: 600 !important;
+  border-radius: 15px !important;
+  width: 82vw !important;
+}
+
+.intellect2ndRunnerUp {
+  background-color: rgba(186, 164, 69, 0.7137254902) !important;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  padding: 0 40px !important;
+  height: 60px !important;
+  font-size: 1.3em !important;
+  font-weight: 600 !important;
+  border-radius: 15px !important;
+  width: 79vw !important;
+}
+
+.intellectLeaderboard {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 77vw;
+  background-color: rgba(199, 199, 199, 0.4588235294);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  padding: 0 35px;
+  height: 55px;
+  font-size: 1.2em;
+  font-weight: 500;
+  border-radius: 15px;
+}
+
+.rankAndName {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+}
+.rankAndName p {
+  margin-right: 50px;
 }
 
 .sponsorsWrapper {
