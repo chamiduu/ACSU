@@ -90,9 +90,11 @@ h1 {
   bottom: -150px;
   width: 600px;
   z-index: -1;
+  transition: 0.5 all ease-in-out;
 }
 @media screen and (max-width: 458px) {
   .astronout {
+    display: none;
     width: 400px;
   }
 }
@@ -477,17 +479,26 @@ h1 {
 }
 @media screen and (max-width: 458px) {
   .visualizearaSection h2 {
-    font-size: 2.5em;
+    font-size: 2em;
     margin-top: 150px;
   }
 }
 
 .podiumContainer {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
   align-items: center;
-  width: 90vw;
+  width: 100vw;
+  margin-left: -5vw;
+  margin-top: 50px;
+  justify-items: center;
+  justify-content: center;
+}
+@media screen and (max-width: 458px) {
+  .podiumContainer {
+    margin-left: 0;
+    width: 100%;
+  }
 }
 
 .secondRunnerUp {
@@ -498,6 +509,12 @@ h1 {
   justify-content: center;
   align-items: center;
 }
+@media screen and (max-width: 458px) {
+  .secondRunnerUp {
+    width: 85vw;
+    margin-top: -80px;
+  }
+}
 
 .winner {
   width: 500px;
@@ -507,6 +524,11 @@ h1 {
   justify-content: center;
   align-items: center;
 }
+@media screen and (max-width: 458px) {
+  .winner {
+    width: 90vw;
+  }
+}
 
 .firstRunnerUp {
   width: 450px;
@@ -515,6 +537,38 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+@media screen and (max-width: 458px) {
+  .firstRunnerUp {
+    width: 80vw;
+  }
+}
+
+.personName {
+  text-align: center;
+  margin-top: 20px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.personContainer {
+  margin-top: 80px;
+}
+
+.winner, .secondRunnerUp, .firstRunnerUp {
+  border-radius: 20px;
+}
+
+.third {
+  font-size: 1.3em;
+}
+
+.second {
+  font-size: 1.4em;
+}
+
+.first {
+  font-size: 1.5em;
 }
 
 .sponsorsWrapper {

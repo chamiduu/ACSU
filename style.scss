@@ -94,9 +94,10 @@ h1 {
     bottom: -150px;
     width: 600px;
     z-index: -1;
+    transition: 0.5 all ease-in-out;
 
     @media screen and (max-width: 458px) {
-        // display: none;
+        display: none;
         width: 400px;
     }
 }
@@ -489,17 +490,25 @@ background: linear-gradient(114deg, rgba(118,247,255,1) 0%, rgba(0,255,224,1) 10
     margin-bottom: 0;
 
     @media screen and (max-width: 458px) {
-        font-size: 2.5em;
+        font-size: 2em;
         margin-top: 150px;
     }
 }
 
 .podiumContainer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
     align-items: center;
-    width: 90vw;
+    width: 100vw;
+    margin-left: -5vw;
+    margin-top: 50px;
+    justify-items: center;
+    justify-content: center;
+
+    @media screen and (max-width: 458px) {
+        margin-left: 0;   
+        width: 100%;
+    }
 }
 
 .secondRunnerUp {
@@ -509,6 +518,11 @@ background: linear-gradient(114deg, rgba(118,247,255,1) 0%, rgba(0,255,224,1) 10
     display: flex;
     justify-content: center;
     align-items: center;
+
+    @media screen and (max-width: 458px) {
+        width: 85vw;
+        margin-top: -80px;
+    }
 }
 
 .winner {
@@ -518,6 +532,10 @@ background: linear-gradient(114deg, rgba(118,247,255,1) 0%, rgba(0,255,224,1) 10
     display: flex;
     justify-content: center;
     align-items: center;
+
+    @media screen and (max-width: 458px) {
+        width: 90vw;
+    }
 }
 
 .firstRunnerUp {
@@ -527,11 +545,38 @@ background: linear-gradient(114deg, rgba(118,247,255,1) 0%, rgba(0,255,224,1) 10
     display: flex;
     justify-content: center;
     align-items: center;
+
+    @media screen and (max-width: 458px) {
+        width: 80vw;
+    }
 }
 
+.personName {
+    text-align: center;
+    margin-top: 20px;
+    color: #fff;
+    font-weight: 600;
+}
 
+.personContainer {
+    margin-top: 80px;
+}
 
+.winner, .secondRunnerUp, .firstRunnerUp {
+    border-radius: 20px;
+}
 
+.third {
+    font-size: 1.3em;
+}
+
+.second {
+    font-size: 1.4em;
+}
+
+.first {
+    font-size: 1.5em;
+}
 
 
 // SPONSORS SECTION
