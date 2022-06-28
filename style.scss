@@ -413,6 +413,11 @@ background: linear-gradient(114deg, rgba(118,247,255,1) 0%, rgba(0,255,224,1) 10
     width: 85vw !important;
     font-weight: 600 !important;
     border-radius: 15px !important;
+
+    @media screen and (max-width: 458px) {
+        font-size: 1.4em !important;
+        width: 100vw !important;
+    }
 }
 
 .intellectRunnerUp {
@@ -424,6 +429,11 @@ background: linear-gradient(114deg, rgba(118,247,255,1) 0%, rgba(0,255,224,1) 10
     font-weight: 600 !important;
     border-radius: 15px !important;
     width: 82vw !important;
+
+    @media screen and (max-width: 458px) {
+        font-size: 1.3em !important;
+        width: 95vw !important;
+    }
 }
 
 .intellect2ndRunnerUp {
@@ -435,6 +445,11 @@ background: linear-gradient(114deg, rgba(118,247,255,1) 0%, rgba(0,255,224,1) 10
     font-weight: 600 !important;
     border-radius: 15px !important;
     width: 79vw !important;
+
+    @media screen and (max-width: 458px) {
+        font-size: 1.3em !important;
+        width: 90vw !important;
+    }
 }
 
 
@@ -452,6 +467,11 @@ background: linear-gradient(114deg, rgba(118,247,255,1) 0%, rgba(0,255,224,1) 10
     font-size: 1.2em;
     font-weight: 500;
     border-radius: 15px;
+
+    @media screen and (max-width: 458px) {
+        font-size: 1.2em;
+        width: 85vw;
+    }
 }
 
 .rankAndName {
