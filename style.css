@@ -515,14 +515,13 @@ h1 {
 }
 
 .podiumContainer {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
-  align-items: center;
+  display: flex;
   width: 100vw;
   margin-left: -5vw;
   margin-top: 50px;
-  justify-items: center;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 @media screen and (max-width: 458px) {
   .podiumContainer {
