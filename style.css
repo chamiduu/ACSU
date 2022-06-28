@@ -212,7 +212,7 @@ h1 {
   align-items: center;
   width: 500px;
   position: absolute;
-  bottom: 50px;
+  bottom: 20px;
 }
 @media screen and (max-width: 458px) {
   .buttons {
