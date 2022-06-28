@@ -529,6 +529,13 @@ iframe {
     flex-direction: column;
     align-items: center;
 
+    img {
+        width: 100%;
+        height: 100%;
+        border-radius: 20px;
+    }
+
+
     @media screen and (max-width: 458px) {
         margin-left: 0;   
         width: 100%;
@@ -543,6 +550,13 @@ iframe {
     justify-content: center;
     align-items: center;
 
+    img {
+        width: 100%;
+        height: 100%;
+        border-radius: 20px;
+    }
+
+
     @media screen and (max-width: 458px) {
         width: 85vw;
         margin-top: -80px;
@@ -556,6 +570,12 @@ iframe {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    img {
+        width: 100%;
+        height: 100%;
+        border-radius: 20px;
+    }
 
     @media screen and (max-width: 458px) {
         width: 90vw;
