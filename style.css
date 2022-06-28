@@ -339,7 +339,6 @@ h1 {
 .registerWrapper {
   padding: 0 10vw 0 100px;
   margin-top: 200px;
-  height: 100vh;
 }
 @media screen and (max-width: 458px) {
   .registerWrapper {
@@ -359,6 +358,13 @@ h1 {
   .registerSection h2 {
     font-size: 2.5em;
     margin-top: 150px;
+  }
+}
+
+@media screen and (max-width: 458px) {
+  iframe {
+    width: 80vw;
+    height: 1500px;
   }
 }
 
@@ -382,7 +388,7 @@ h1 {
 }
 @media screen and (max-width: 458px) {
   .leaderboardSection h2 {
-    font-size: 2.5em;
+    font-size: 2em;
     margin-top: 150px;
   }
 }
@@ -408,6 +414,12 @@ h1 {
   font-weight: 600 !important;
   border-radius: 15px !important;
 }
+@media screen and (max-width: 458px) {
+  .intellectWinner {
+    font-size: 1.4em !important;
+    width: 100vw !important;
+  }
+}
 
 .intellectRunnerUp {
   background-color: rgba(255, 255, 255, 0.662745098) !important;
@@ -420,6 +432,12 @@ h1 {
   border-radius: 15px !important;
   width: 82vw !important;
 }
+@media screen and (max-width: 458px) {
+  .intellectRunnerUp {
+    font-size: 1.3em !important;
+    width: 95vw !important;
+  }
+}
 
 .intellect2ndRunnerUp {
   background-color: rgba(186, 164, 69, 0.7137254902) !important;
@@ -431,6 +449,12 @@ h1 {
   font-weight: 600 !important;
   border-radius: 15px !important;
   width: 79vw !important;
+}
+@media screen and (max-width: 458px) {
+  .intellect2ndRunnerUp {
+    font-size: 1.3em !important;
+    width: 90vw !important;
+  }
 }
 
 .intellectLeaderboard {
@@ -448,6 +472,12 @@ h1 {
   font-size: 1.2em;
   font-weight: 500;
   border-radius: 15px;
+}
+@media screen and (max-width: 458px) {
+  .intellectLeaderboard {
+    font-size: 1.2em;
+    width: 85vw;
+  }
 }
 
 .rankAndName {
