@@ -339,7 +339,6 @@ h1 {
 .registerWrapper {
   padding: 0 10vw 0 100px;
   margin-top: 200px;
-  height: 100vh;
 }
 @media screen and (max-width: 458px) {
   .registerWrapper {
@@ -359,6 +358,13 @@ h1 {
   .registerSection h2 {
     font-size: 2.5em;
     margin-top: 150px;
+  }
+}
+
+@media screen and (max-width: 458px) {
+  iframe {
+    width: 80vw;
+    height: 1500px;
   }
 }
 
