@@ -211,11 +211,13 @@ background: linear-gradient(114deg, rgba(118,247,255,1) 0%, rgba(0,255,224,1) 10
     align-items: center;
     width: 500px;
     position: absolute;
-    bottom: 20px;
+    bottom: 50px;
 
     @media screen and (max-width: 458px) {
         flex-direction: column;
         width: min-content;
+        position: static;
+        margin-top: 100px;
     }
 }
 
